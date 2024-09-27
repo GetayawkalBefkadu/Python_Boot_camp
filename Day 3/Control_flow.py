@@ -1,3 +1,4 @@
+# can you ride roller coaster? well let's see...
 print("welcome to Rollercoaster! ")
 height = int(input("what is your height in cm? "))
 bill = 0
@@ -20,3 +21,4 @@ if height >= 120:
     print(f"The value of the bill is {bill}")
 else:
     print("sorry you have to grow taller before you can ride.  ")
+print("Thank you very much have a good day!!!")
