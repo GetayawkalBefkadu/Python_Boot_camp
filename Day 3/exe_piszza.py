@@ -1,3 +1,4 @@
+# let us create some pizza order system
 print("Welcome to Python Pizza Deliveries!")
 bill = 0
 size = input("what size pizza do you want? S , M , L  \n")
@@ -20,4 +21,5 @@ elif size == "L":
     if add_pepperoni == "Y":
         bill += 1
 print(f"Your final bill is ${bill}")
+print("Thank you for choosing us!!! ")
 
