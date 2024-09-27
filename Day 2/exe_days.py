@@ -1,3 +1,4 @@
+# calculating how many das, weeks and month you used in your life-time so far
 day = 1
 weeks = 7 * int(day)
 month = 12 * int(day)
