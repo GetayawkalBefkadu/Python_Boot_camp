@@ -1,3 +1,4 @@
+# let us calculate your BMI(body mass index using if conditions!!!
 height = float(input("Insert your height: "))
 weight = float(input("Insert your weight: "))
 BMI = weight / (height * height)
@@ -9,5 +10,6 @@ elif BMI >= 25 and BMI < 30:
     print(f"Your BMI is: {BMI} -  Over weight")
 elif BMI > 30 and  BMI < 35:
     print(f"Your BMI is: {BMI} -  Obese")
+    print("please start some sports and check your doctor please!!!")
 else:
-    print("You are Clinically obese!!!")
+    print("Jesus Crist!!!!  You are Clinically obese!!!")
