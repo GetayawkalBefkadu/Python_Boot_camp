@@ -15,3 +15,4 @@ if random_gusse == gamer:
     print("same choise no winner")
 elif random_gusse != gamer:
     print("You win")
+# i want to create head or tail game using random module but it is not finished and i will fix it.
