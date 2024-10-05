@@ -1,3 +1,4 @@
+# -----------------who let us develop who will pay game!!!----------------------
 import random
 # List_of_names = input("Give the list of names separated by comma. ")
 # names = List_of_names.split(",")
