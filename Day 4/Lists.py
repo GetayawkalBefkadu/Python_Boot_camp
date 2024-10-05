@@ -1,5 +1,3 @@
-# -----------------who let us develop who will pay game!!!----------------------
-
 import random
 
 # Welcome Message
@@ -28,4 +26,3 @@ if choice == "yes":
         print("Please enter more than one name to play the game.")
 else:
     print("Okay, think it over and come back later. Thank you!!!")
-
