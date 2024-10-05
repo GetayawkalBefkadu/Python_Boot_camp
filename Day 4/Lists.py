@@ -1,7 +1,12 @@
-# List us  see lists data structure  in python
-Regions_of_Ethiopia = ["Addis ababa", "Harari", "Dera dewa", "Oromia", "Tigeray", "Amhara", "Gumuz", "Guragea"]
-print(Regions_of_Ethiopia[-2])
-Regions_of_Ethiopia.append("Afar")
-print(Regions_of_Ethiopia)
-Regions_of_Ethiopia.extend(["Sidama", "debube","please love each other!!"])
-print(Regions_of_Ethiopia)
+import random
+# List_of_names = input("Give the list of names separated by comma. ")
+# names = List_of_names.split(",")
+# name_items = len(names)
+# random_choice = random.randint(0,name_items -1)
+# person_who_will_pay = names[random_choice]
+# print(person_who_will_pay + " is going to pay to days meal!! ")
+# ----------------- another method ---------------------------------
+List_of_names = input("Give the list of names separated by comma. \n ")
+names = List_of_names.split(",")
+person_who_will_pay = random.choice(names)
+print(person_who_will_pay + " is going to pay to days meals!!")
