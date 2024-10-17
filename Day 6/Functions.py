@@ -1,4 +1,19 @@
 # python function
+success = ""  # Initially, success is not achieved
+
+def success_console():
+    while success == "":  # While success is not achieved
+        print("Work hard, try again")  # Motivational message
+        # Simulating hard work to achieve success
+        break  # You can remove this break to allow multiple attempts
+    else:
+        print("Congratulations! Enjoy your success!")  # Success message
+
+# Simulate the process of achieving success
+success = "achieved"  # Set success once achieved
+success_console()
+
+        
 def my_function():
     print("----------------------Hello!!----------------------")
     print("====================================================")
