@@ -86,4 +86,22 @@ def greet(name, greeting="Hello"):
 
 greet("Bob")  # Output: Hello, Bob!
 greet("Charlie", "Hi")  # Output: Hi, Charlie!
+# =====================================================================
+def factorial(n):
+  """Calculates the factorial of a number.
 
+  Args:
+    n: The number to calculate the factorial of.
+
+  Returns:
+    The factorial of n.
+  """
+
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n - 1)
+
+result = factorial(5)
+print("Factorial of 5 is:", result)
+# =====================================================================
