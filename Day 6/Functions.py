@@ -43,3 +43,19 @@ num = int(input("Enter a number to check if it's even or odd: "))
 
 # Calling the function and displaying the result
 print(f"The number {num} is {check_even_odd(num)}.")
+
+# d/f functions examples
+# =====================================================================
+def greet(name):
+  """Greets a person by name.
+
+  Args:
+    name: The name of the person to greet.
+  """
+
+  print("Hello, " + name + "!")
+
+greet("Alice")
+# =====================================================================
+
+
