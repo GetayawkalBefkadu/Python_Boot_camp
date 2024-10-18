@@ -57,5 +57,21 @@ def greet(name):
 
 greet("Alice")
 # =====================================================================
+def calculate_area(length, width):
+  """Calculates the area of a rectangle.
 
+  Args:
+    length: The length of the rectangle.
+    width: The width of the rectangle.
+
+  Returns:
+    The area of the rectangle.
+  """
+
+  area = length * width
+  return area
+
+result = calculate_area(5, 10)
+print("The area is:", result)
+# =====================================================================
 
