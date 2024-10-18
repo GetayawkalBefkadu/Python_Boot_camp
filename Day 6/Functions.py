@@ -74,4 +74,16 @@ def calculate_area(length, width):
 result = calculate_area(5, 10)
 print("The area is:", result)
 # =====================================================================
+def greet(name, greeting="Hello"):
+  """Greets a person with a customizable greeting.
+
+  Args:
+    name: The name of the person to greet.
+    greeting: The greeting message (default: "Hello").
+  """
+
+  print(greeting + ", " + name + "!")
+
+greet("Bob")  # Output: Hello, Bob!
+greet("Charlie", "Hi")  # Output: Hi, Charlie!
 
