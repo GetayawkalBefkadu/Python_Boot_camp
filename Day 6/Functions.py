@@ -105,3 +105,22 @@ def factorial(n):
 result = factorial(5)
 print("Factorial of 5 is:", result)
 # =====================================================================
+def sum_numbers(*args):
+  """Calculates the sum of a variable number of numbers.
+
+  Args:
+    *args: A variable number of arguments.
+
+  Returns:
+    The sum of the arguments.
+  """
+
+  total = 0
+  for num in args:
+    total += num
+  return total
+
+result = sum_numbers(1, 2, 3, 4, 5)
+print("Sum of numbers:", result)
+# =====================================================================
+
