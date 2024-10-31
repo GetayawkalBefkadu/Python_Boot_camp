@@ -1,7 +1,6 @@
 # testing random code challange
 # Initial list
 hat_list = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
-
 # Step 1: Prompt the user to enter a number to replace the middle element
 user_input = int(input("Enter a number to replace the middle element: "))
 
