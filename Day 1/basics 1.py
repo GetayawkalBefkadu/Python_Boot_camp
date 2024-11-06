@@ -1,3 +1,4 @@
+# consitancy and knowing your goal is the most hardest thing i ever faced!!
 print("------------python programming -----------------")
 print("Day1:- print functions and introductions!")
 print('To print new  line use this symbol ---->>>  "\n" There is it is the new line!! ')
