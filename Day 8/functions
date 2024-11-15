@@ -1,4 +1,4 @@
-
+# this are some examples of  functions
 #functions with parameter
 def add(a,b,c,d):
     res = a + b + c + d
