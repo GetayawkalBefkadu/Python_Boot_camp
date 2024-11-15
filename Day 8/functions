@@ -117,3 +117,10 @@ print(miles_gallon_to_liters_100km(60.3))
 print(miles_gallon_to_liters_100km(31.4))
 print(miles_gallon_to_liters_100km(23.5))
 # ------------------------------------------------------------
+def message():
+    alt = 1
+    print("Hello, World!")
+ 
+ 
+print(alt)
+# -----------------------------------------------------------
