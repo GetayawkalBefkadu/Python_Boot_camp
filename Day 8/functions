@@ -1,0 +1,5 @@
+#functions with parameter
+def add(a,b,c,d):
+    res = a + b + c + d
+    print(res)
+add(1,2,3,4)
