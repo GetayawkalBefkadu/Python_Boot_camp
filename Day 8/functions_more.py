@@ -28,3 +28,11 @@ def BMI():
     elif bmi >= 25:
         print("Warning: Your BMI indicates overweight. It's time to start exercising!")
 BMI()
+# ----------------------------------------------------------
+def Triangle():
+    base = float(input("Insert base of the triangle : \n"))
+    height = float(input("Insert height of the triangle : \n"))
+    tri = 0.5 * base * height
+    print(f"The are of triangle is : {tri}")
+Triangle()
+# ---------------------------------------------------------------
